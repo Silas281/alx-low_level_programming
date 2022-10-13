@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  *
- * main function
- * Return 0
+ * main function is the entry code
+ * 
+ * Returns 0 on success
  */
 
-int main(void)
+int main()
 
 {
 
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }

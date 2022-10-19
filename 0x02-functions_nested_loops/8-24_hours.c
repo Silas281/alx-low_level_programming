@@ -48,4 +48,6 @@ void jack_bauer(void)
 		hrs_ones = '0';
 		hrs_tens++;
 	}
+
+}
 }

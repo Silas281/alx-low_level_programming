@@ -22,6 +22,7 @@ void puts_half(char *str)
 
 	}
 
+	len--;
 	max = len;
 
 	half = max / 2;

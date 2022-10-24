@@ -20,7 +20,7 @@ int main(void)
 
 
 
-    str = "0123456789";
+    str = "Holberton!";
 
     puts_half(str);
 

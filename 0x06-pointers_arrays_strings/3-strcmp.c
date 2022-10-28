@@ -12,12 +12,12 @@
 int _strcmp(char *s1, char *s2)
 {
 	int k, i, len1, len2, dif, j;
-	
-	k=0;
 
-	i=0;
+	k = 0;
 
-	j=0;
+	i = 0;
+
+	j = 0;
 
 	while (s1[i] != '\0')
 	{
@@ -25,14 +25,15 @@ int _strcmp(char *s1, char *s2)
 
 		i++;
 	}
-	
+
 	while (s2[j] != '\0')
 	{
 		len2++;
 		j++;
 	}
-	
-	dif = s1 -s2;
+
+	dif = s1 - s2;
+
 	if (dif != 0)
 	{
 		return (dif);

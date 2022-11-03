@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
 *factorial - return a factorial of a number
@@ -13,5 +13,5 @@ int factorial(int n)
 		return (1);
 	}
 
-	return factorial(n - 1);
+	return (factorial(n - 1));
 }

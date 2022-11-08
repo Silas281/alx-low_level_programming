@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
 		j = 1;
 
-		while (i < argc)
+		while (j < argc)
 		{
 
 			is_number = isNumber(argv[j]);

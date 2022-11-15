@@ -5,9 +5,9 @@
 int _putchar(char c);
 
 /**
- * struct dog - best friend of humankind
- * @name: doggo's name
- * @age: doggo's age
+ * struct dog -dog animal
+ * @name: dog's name
+ * @age: dog's age
  * @owner: owner's name
  */
 typedef struct dog
